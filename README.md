@@ -110,5 +110,5 @@ Distributed under the AGPL License. See [`LICENSE`](https://github.com/thgossler
 [issues-shield]: https://img.shields.io/github/issues/thgossler/ReplacePdfHyperlinks.svg
 [issues-url]: https://github.com/thgossler/ReplacePdfHyperlinks/issues
 [license-shield]: https://img.shields.io/github/license/thgossler/ReplacePdfHyperlinks.svg
-[license-url]: https://github.com/thgossler/ReplacePdfHyperlinks/blob/main/LICENSE
+[license-url]: https://github.com/thgossler/ReplacePdfHyperlinks/blob/main/LICENSE.txt
 [product-screenshot]: images/screenshot.png
