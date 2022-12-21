@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "ReplacePdfHyperlinks": {
+      "commandName": "Project",
+      "commandLineArgs": "--inputFile \"/mnt/c/Users/gossthk5/OneDrive - Siemens Healthineers/Tools/PDFHyperlinkUpdater/ReplacePdfHyperlinks/Test.pdf\" --outputFile \"/mnt/c/Users/gossthk5/OneDrive - Siemens Healthineers/Tools/PDFHyperlinkUpdater/ReplacePdfHyperlinks/Test-out.pdf\" --searchRegEx \"localhost\" --replaceRegEx \"kb-i.teamplay.siemens-healthineers.com\" --overwrite-yes"
+    },
+    "WSL": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    }
+  }
+}
