@@ -136,7 +136,9 @@ command.SetHandler((inputFile, outputFile, searchRegEx, replaceRegEx, overwrite)
                 foreach (var annotObj in new List<PdfObject>(annotsArray.ToArray())) {
                     var annotObjDict = annotObj as PdfDictionary;
                     var obj = annotObjDict?.Get(PdfName.A);
-                    if (obj != null && annotObjDict != null && (annotObjDict.Get(PdfName.Subtype).Equals(PdfName.Link) || annotObjDict.Get(PdfName.Subtype).Equals(PdfName.Widget))) {
+                    if (obj != null && annotObjDict != null && (annotObjDict.Get(PdfName.Subtype).Equals(PdfName.Link) ||
+                        annotObjDict.Get(PdfName.Subtype).Equals(PdfName.Widget))) 
+                    {
                         var objDict = obj as PdfDictionary;
                         var s = objDict?.Get(PdfName.S);
                         if (s != null && s.Equals(PdfName.URI)) {
