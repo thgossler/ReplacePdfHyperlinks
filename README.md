@@ -31,7 +31,7 @@
 
 This is a simple .NET command line (CLI) tool to search and replace hyperlinks in a PDF document with regular expressions. It is for example used to change all hyperlinks from localhost to the actual domain name in an auto-generated PDF from a Docusaurus static web site. It was developed because there seemed to be no other free tool that can do this. The tool uses the iText7 library for PDF processing which is licensed under AGPL for non-commercial use. Hence, this tool is also published under the AGPL license.
 
-[![ReplacePdfHyperlinks screen shot][product-screenshot]]([https://github.com/thgossler/WebPageHost/])
+[![ReplacePdfHyperlinks screen shot][product-screenshot]]([https://github.com/thgossler/ReplacePdfHyperlinks/])
 
 > _**Note:** This tool was written by me in my spare time and will be developed only sporadically._
 
