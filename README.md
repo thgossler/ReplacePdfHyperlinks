@@ -38,7 +38,7 @@ This is a simple .NET command line (CLI) tool to search and replace hyperlinks i
 
 ### Built With
 
-* [.NET 7 (C#)](https://dotnet.microsoft.com/en-us/)
+* [.NET 8 (C#)](https://dotnet.microsoft.com/en-us/)
 * [System.CommandLine](https://github.com/dotnet/command-line-api)
 * [iText7 for .NET](https://github.com/itext/itext7-dotnet)
 
